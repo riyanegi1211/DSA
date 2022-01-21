@@ -6,7 +6,7 @@ bool anagram(string str1,string str2)
     int n1=str1.length();
     int n2=str2.length();
 
-    if(str1!=str2)
+    if(n1!=n2)
     return false;
 
     sort(str1.begin(),str1.end());
